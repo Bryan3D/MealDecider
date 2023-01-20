@@ -1,4 +1,14 @@
 # MEAL DECIDER
+- [MEAL DECIDER](#meal-decider)     
+- [Description](#description)     
+- [Installation](#installation)     
+- [Usage](#usage)         
+- [**Initial Page**](#initial-page)         
+- [**Category Selection**](#category-selection)         
+- [**Selected Recipe Page**](#selected-recipe-page)         
+- [**Favorites list populated**](#favorites-list-populated)     
+- [Credits](#credits)     
+- [License](#license)  
 
 ## Description
 
