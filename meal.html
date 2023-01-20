@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Decider</title>
+    <!-- FOUNDATION Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+  <body> 
+    <header>
+      <h1>Great choice, enjoy your meal!</h1>
+    </header>
+   <!-- create meal div -->
+   <!-- need meal title, ingrediants, image of meal and instructions -->
+  <div class="current-recipe">
+          <h2 id="meal-title">Recipe</h2>
+        <div class="currentmeal">
+            <br>
+        </div>
+        <div class="mealimg1">
+          <img src="" alt="meal photo" class="mealimg">
+           <p class="mealp"></p> 
+        </div>
+        <br>
+        <div class="mealingredients"> <p class="mealp"> Ingredients:</p>
+          <ul class="mealingredientsUl"></p> 
+        </div>
+        <div> <p class="mealp"> Instructions:</p>
+         <p class="mealinstructions"></p> 
+        </div>
+        
+        <br>
+
+    <div class="bck-fav-btns">
+    <button onclick="faveBtn()" id="favorites-btn">
+      <p>Add to my favorites <span>&#128151</span></p>
+         </button>
+
+      <!-- make sure to make Nav bar to come back to search page -->   
+       
+      <a id="go-bck" class="go-bck"  href="./index.html"><p>Main Page<span>&#10232</span></p></a>
+   </div>  
+  </div>
+   
+    <!-- SCRIPTS -->
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./assets/script/meal.js"></script>
+    </html>

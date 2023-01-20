@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Decider</title>
+    <!-- FOUNDATION Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+  <body>
+    <header>
+      <h1> Welcome to Meal Decider</h1>
+    </header>
+    <!-- SEARCH BAR -->
+    <div class="searchBar">
+        <label class="select">Let's get started!
+          <select id="search-cat">
+            <option value="" disabled selected>Select a Category...</option>
+            <option value="beef">Beef</option>
+            <option value="pasta">Pasta</option>
+            <option value="pork">Pork</option>
+            <option value="seafood">Seafood</option>
+            <option value="goat">Goat</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="starter">Starter</option>
+            <option value="side">Side</option>            
+            <option value="vegan">Vegan</option>
+            <option value="vegetarian">Vegetarian</option>
+         
+          </select>
+        </label>
+    
+          <!-- SEARCH BUTTON -->
+
+          <button class="button" id="search-btn">Search</button>
+    </div>
+<!-- MAIN SECTION -->
+    <main class="main">
+
+      <!-- FAVORITES SECTION -->
+      <div class="section1">
+            <div class="favorites">
+              <h2 id="favoriteslist">My Favorites</h2>
+              <ul class="favlist" id="faves-list"></ul>
+            </div>
+
+            <!-- RECIPES SECTION -->
+            <div class="recipes">
+              <h2 id="recipes">Recipes</h2>
+              <ul class="recipeslist"></ul>
+            </div>
+      </div>
+
+      <br>
+      <br>
+    
+
+      <!--  **** SUGGESTED COCKTAILS -->
+      <div class="suggestion">
+        <h2 id="suggestion">Cocktail suggestion</h2>
+        <div class="randomCocktail">
+          <p class="cocktailname"></p>
+          <br><br>
+          <img src="" alt="drink photo" class="drinkimg">
+          <div class="newins">
+          </div>
+          <div class="cocktailingredients">
+            <ul class="ingredientsUl"></ul>
+          </div>
+
+      </div>
+    </main>
+
+    <footer>
+       <h5 class="footer">
+        Website designed by Group 4   -   &copy; Copyrights reserved 2022
+       </h5>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="./assets/script/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</html>
