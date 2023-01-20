@@ -1,5 +1,7 @@
 # MEAL DECIDER
-- [MEAL DECIDER](#meal-decider)     
+
+## Table of Content
+- [Table of Content](#Table-of-Content)     
 - [Description](#description)     
 - [Installation](#installation)     
 - [Usage](#usage)         
